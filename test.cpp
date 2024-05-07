@@ -54,7 +54,7 @@ void frontscreen(void)
     drawstring(30,3," Press ENTER to go To next screen",GLUT_BITMAP_HELVETICA_18 );
 	drawstring(3,3,"Maximize window for better view",GLUT_BITMAP_HELVETICA_12);
     glColor3f(1,1,0);
-	output(19,20,"SRMIST");
+	output(19,20,"");
 	glColor3f(1,1,0);
 	output(12,18,"DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING");
 	glColor3f(1,0,1);
@@ -69,7 +69,7 @@ void frontscreen(void)
 	glVertex2f(26,37);
 	glEnd();
 	glColor3f(1,0,0);
-	output(30,9,"AAYUSH SAXENA");
+	output(30,9,"Radhika Ridansh Sahil");
     output(40,80,"");
 	glFlush();
 
